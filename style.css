@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar{
+    background-color: gold;
+    height: 60px;
+    padding: 15px;
+}
+
+.navbar-components{
+    font-size: large;
+    text-align: center;
+}
+
+.navbar-components a{
+    display: inline-block;
+    color:black;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-weight: 650;
+}
+
+.navbar-components a:hover{
+    color:crimson;
+}
+
+.description {
+    display: flex;
+    background-color:white ;
+    font-size: 1.6rem;
+}
+
+.project-info {
+    flex: 10;
+    padding: 30px; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.project-image img {
+    max-width: 100%;
+    height: 490px;
+    width:800px;
+}
+
+.project-info p{
+    font-weight: 450;
+}
+
+.project-info h1{
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+}
+
+.resources {
+    text-align: center;
+    padding: 0px;
+    /* background-color: #f2f2f2; */
+}
+
+.resources-heading h1{
+    background-color:#4C3D3D;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    color: aliceblue;
+}
+
+.resource-one h3, .resource-two h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resource-one a, .resource-two a{
+    text-align: center;
+    color: black;
+}
+
+.resource-one a:hover, .resource-two a:hover{
+  color: rgb(2, 2, 203);
+}
+
+.assets{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    margin: 0px;
+     font-size:1.2rem;
+     padding-bottom: 30px;
+}
+
+.assets-heading h1{
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+}
+
+.assets-content img{
+    max-width: 100%;
+}
+
+.drive-link a{
+    text-align: center;
+    color:white;
+}
+
+.challenges-heading h1{
+    background-color: #C07F00;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+}
+
+.challenges-content{
+    margin: 20px;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+.challenges-content p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.demo h1{
+    background-color: #FFF7D4;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+}
+
+.demo-content{
+    margin: 14px;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+.demo-content p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contribution-heading h1{
+    background-color: #FF9B50;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+}
+
+.contribution-content{
+    display:flex;
+    padding: 20px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contribution-one{
+    flex: 1;    
+}
+
+.contribution-two{
+    flex: 1;
+}
+
