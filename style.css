@@ -107,16 +107,16 @@ body {
     color: aliceblue;
 }
 
-.resource-one h3, .resource-two h3{
+.resource-one h3, .resource-two h3, .resource-three h3{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.resource-one a, .resource-two a{
+.resource-one a, .resource-two a, .resource-three a{
     text-align: center;
     color: black;
 }
 
-.resource-one a:hover, .resource-two a:hover{
+.resource-one a:hover, .resource-two a:hover, .resource-three a:hover{
   color: rgb(2, 2, 203);
 }
 
